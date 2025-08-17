@@ -1,0 +1,118 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 15px;
+  background-color: #262324;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+header nav li a {
+  color: #ecf0f1;
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+header img {
+  height: 150px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.store-front,
+.assistent,
+.sales,
+.others {
+  height: 550px;
+}
+
+section .container,
+section  .assistent,
+section .sales,
+section .assistent,
+section .others {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+body ,
+ p,
+ h2 {
+  font-family: "Roboto", sans-serif;
+  padding: 8px;
+  margin-bottom: 4px;
+}
+
+body p {
+  font-size: 18px;
+}
+
+.assistent {
+  height: 550px;
+}
+
+/*
+footer {
+   background-color: #262324;
+   }
+   */
+  
+
+  footer .foot {
+    height: 150px;
+    font-size: 14px;
+  }
+
+footer h2,
+ p {
+      color: #262324;
+  }
+
+  .social-links img {
+    height: 54px;
+  }
+
+  footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  footer li,
+   .container {
+    display: inline;
+    align-items: center;
+   margin-right: 16px;
+  }
+
+  footer li a {
+    text-decoration: none;
+  }
+#whatsapp {
+  height: 75px;
+  margin-top: 10px;
+}
+
+
+
