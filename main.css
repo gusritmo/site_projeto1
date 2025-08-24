@@ -5,114 +5,125 @@
   box-sizing: border-box;
 }
 
+/*Header configing*/
 header {
-  padding: 15px;
-  background-color: #262324;
+  background-color:rgb(29, 41, 61);
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+header img {
+  height: 140px;
 }
 
 header nav li {
+  height: 10px;
   display: inline;
-  margin-left: 16px;
-  font-size: 16px;
 }
 
-header nav li a {
-  color: #ecf0f1;
-  font-family: "Bungee", sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-}
-header img {
-  height: 150px;
-}
-
-header .container {
+header .container,
+section .container,
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+header li a {
+  color: rgb(255, 184, 105);
+  text-decoration: none;
+  margin-left: 16px;
+}
+
 .container {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
 
-.store-front,
-.assistent,
-.sales,
-.others {
-  height: 550px;
-}
-
-section .container,
-section  .assistent,
-section .sales,
-section .assistent,
-section .others {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-body ,
- p,
- h2 {
-  font-family: "Roboto", sans-serif;
-  padding: 8px;
-  margin-bottom: 4px;
-}
-
-body p {
-  font-size: 18px;
-}
-
-.assistent {
-  height: 550px;
-}
-
-/*
-footer {
-   background-color: #262324;
-   }
-   */
-  
-
-  footer .foot {
-    height: 150px;
-    font-size: 14px;
+body,
+input,
+textarea,
+p {
+  font-family: "Montserrat", sans-serif;
+  background-color:oklch(96.8% 0.007 247.896);
+  color: rgb(29, 41, 61);
   }
 
-footer h2,
- p {
-      color: #262324;
+  section .container img {
+    height: 630px;
   }
 
-  .social-links img {
+  .social-links li img {
+    height: 24px ;
+    border-radius: 20%;
+  }
+
+  #whatsapp {
     height: 54px;
   }
+  
 
-  footer ul{
+
+  .rodape li{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     
   }
 
-  footer li,
-   .container {
+  .rodape li {
     display: inline;
-    align-items: center;
-   margin-right: 16px;
+    margin-left: 44px;
   }
 
-  footer li a {
+  .talk,
+  .baixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 154px;
+  }
+
+  .social-links li {
+    justify-content: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+
+.manutencao ul li {
+    padding: 12px;
+  }
+
+  section .support li {
     text-decoration: none;
   }
-#whatsapp {
-  height: 75px;
-  margin-top: 10px;
+
+  .support ul li {
+    list-style-type: none;
+    border: none;
+  }
+  
+  footer {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+    color: rgb(29, 41, 61);
+    justify-content: center;
+  }
+
+#accessories img {
+height: 580px;
+margin-right: 50px;
+  /*mix-blend-mode:; => Remove image background*/ 
 }
+
+  .social-links li img:hover {
+    transform: scale(1.2);
+  }
+
+
 
 
 
